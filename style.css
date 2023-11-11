@@ -1,0 +1,42 @@
+body{
+    background-color: lightgreen;
+}
+.btns{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    
+}
+.show-modall,.show-modal2,.show-modal3{
+    padding:10px;
+    font-size: 30px;
+    background-color:rgb(225, 228, 228);
+    outline: none;
+    outline-color: white;
+    border-radius: 10px;
+}
+.modal-hidden{
+    display:block;
+    width: 300px;
+    padding:20px;
+    text-align: center;
+    background-color: rgb(27, 22, 22);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color:grey;
+    display:none;
+}
+.modal-hidden .close-modal{
+    padding:5px;
+    font-size: 2rem;
+    color:white;
+    position:relative;
+    left:40%;
+    cursor: pointer;
+}
+.modal-hidden h2{
+    color:crimson;
+    font-weight: 600;
+}
+
